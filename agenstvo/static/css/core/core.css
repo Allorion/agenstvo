@@ -1,0 +1,161 @@
+/* ########################################## Основные настройки стилей сайта ########################################## */
+@font-face {
+  font-family: IBMPlexSans-SemiBoldItalic;
+  src: url(../fonts/IBMPlexSans-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: IBMPlexSans-TextItalic;
+  src: url(../fonts/IBMPlexSans-TextItalic.ttf);
+}
+@font-face {
+  font-family: IBMPlexSans-Light;
+  src: url(../fonts/IBMPlexSans-Light.ttf);
+}
+@font-face {
+  font-family: IBMPlexSans-Regular;
+  src: url(../fonts/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+  font-family: IBMPlexSans-SemiBold;
+  src: url(../fonts/IBMPlexSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: IBMPlexSans-MediumItalic;
+  src: url(../fonts/IBMPlexSans-MediumItalic.ttf);
+}
+
+body{
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+/* ########################################## Конец основных настроек стилей сайта ########################################## */
+
+/* ########################################## Стили первой секции сайта ########################################## */
+.block-header{
+ background-image: url('../../img/core/header.png');
+ background-size: cover;
+ background-position: center;
+}
+.nav-bar li:not(:first-child){
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.nav-bar a{
+  color: black;
+  font-size: 30px;
+  font-family: IBMPlexSans-SemiBoldItalic;
+}
+.nav-bar a:hover{
+  color: silver;
+}
+.center-elements{
+  margin-top: 150px;
+}
+.logo{
+  width: 340px;
+  height: 340px;
+}
+.center-elements h1{
+  font-size: 100px;
+  color: white;
+  font-family: IBMPlexSans-SemiBoldItalic;
+}
+.arrow_down{
+  width: 64px;
+  height: 64px;
+  margin-top: 200px;
+}
+/* ########################################## Конец первой секции сайта ########################################## */
+
+/* ########################################## Начало второй секции сайта ########################################## */
+.service{
+  background-image: url('../../img/core/service.png');
+  width: 340px;
+  height: 340px;
+  vertical-align:middle;
+  display:table-cell;
+}
+.heder-text-service h1{
+  font-family: IBMPlexSans-SemiBoldItalic;
+}
+.heder-text-service h5{
+  font-family: IBMPlexSans-SemiBoldItalic;
+}
+.service h3{
+  font-size: 30px;
+  font-family: IBMPlexSans-SemiBold;
+}
+.service p{
+  font-size: 20px;
+  font-family: IBMPlexSans-SemiBoldItalic;
+}
+.arrow-down-service{
+  margin-top: 30px;
+}
+/* ########################################## Конец второй секции сайта ########################################## */
+
+/* ########################################## Начало третьей секции сайта ########################################## */
+.block-contact{
+  background-color: #454544;
+}
+.contact-text{
+  color:white;
+}
+.contact-text h1{
+  margin-top: 220px;
+}
+.contact-text h2{
+  font-size: 25px;
+}
+.contact-text h5{
+  font-family: IBMPlexSans-Light;
+}
+/* ########################################## Конец третьей секции сайта ########################################## */
+
+/* ########################################## Адаптация под мобилки ########################################## */
+@media(max-width: 991px){
+  .center-elements{
+    margin-top: 450px;
+  }
+  .arrow_down{
+    margin-top: 600px;
+  }
+  .heder-text-service h1{
+    margin-top: 300px;
+  }
+  .service h3{
+    font-size: 22px;
+    font-family: IBMPlexSans-SemiBold;
+  }
+  .service p{
+    font-size: 18px;
+    font-family: IBMPlexSans-SemiBoldItalic;
+  }
+  .arrow-down-service{
+    margin-top: 400px;
+  }
+  iframe{
+    width: 240px;
+    height: 500px;
+  }
+  .contact-position{
+    margin-top: 300px;
+  }
+}
+/* ########################################## Конец адаптации под мобилки ########################################## */
